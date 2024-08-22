@@ -30,3 +30,4 @@ archive.zip
 .DS_Store
 sqlite3_dev.db
 sqlite3_prod.db
+.venv
