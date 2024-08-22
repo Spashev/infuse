@@ -31,3 +31,5 @@ archive.zip
 sqlite3_dev.db
 sqlite3_prod.db
 .venv
+/src/static/
+/src/.env
