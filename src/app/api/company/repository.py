@@ -1,8 +1,9 @@
 from sqlalchemy.orm import Session
+from fastapi import HTTPException, status
+
 from app.database.models.companies import Company as CompanyModel
 from app.database.models.categories import Category as CategoryModel
 from app.schema.companies import CreateCompany
-from fastapi import HTTPException, status
 
 
 class CompanyRepository:

@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+
 from app.database.models.categories import Category as CategoryModel
 from app.schema.categories import CreateCategory
 
